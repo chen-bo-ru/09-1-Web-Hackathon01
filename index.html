@@ -12,10 +12,10 @@
         <div>
             <input type="text" placeholder="Type something..." id="cal-input"></input>
             <input type="color" id="cal-color"></input>
-            <button id="cal-button">Add to Calendar</button>
+            <button id="cal-button" onclick="getInputValue()">Add to Calendar</button>
         </div>
         <div>
-            <table id='Cal-main'>
+            <table id='Cal-main' >
                 <tr class="Cal-title-row">
                   <td>Sunday</td>
                   <td>Monday</td>
@@ -25,23 +25,41 @@
                   <td>Friday</td>
                   <td>Saturday</td>
                 </tr>
-                <tr class="Cal-content-row">
-                  <td class='date'>4</td>
-                  <td class='date'>5</td>
-                  <td class='date'>6</td>
-                  <td class='date'>7</td>
-                  <td class='date'>8</td>
-                  <td class='date'>9</td>
-                  <td class='date'>10</td>
+                <tr class="Cal-content-row" >
+                  <td class='date' onclick="change(0)" onmouseOver="mouseOver(0)" onmouseOut="mouseOut(0)">4<br></td>
+                  <td class='date' onclick="change(1)" onmouseOver="mouseOver(1)" onmouseOut="mouseOut(1)">5<br></td>
+                  <td class='date' onclick=change(2) onmouseOver="mouseOver(2)" onmouseOut="mouseOut(2)">6<br></td>
+                  <td class='date' onclick=change(3) onmouseOver="mouseOver(3)" onmouseOut="mouseOut(3)">7<br></td>
+                  <td class='date' onclick=change(4) onmouseOver="mouseOver(4)" onmouseOut="mouseOut(4)">8<br></td>
+                  <td class='date' onclick=change(5) onmouseOver="mouseOver(5)" onmouseOut="mouseOut(5)">9<br></td>
+                  <td class='date' onclick=change(6) onmouseOver="mouseOver(6)" onmouseOut="mouseOut(6)">10<br></td>
                 </tr>
                 <tr class="Cal-content-row">
-                    <td class='date'>11</td>
-                    <td class='date'>12</td>
-                    <td class='date'>13</td>
-                    <td class='date'>14</td>
-                    <td class='date'>15</td>
-                    <td class='date'>16</td>
-                    <td class='date'>17</td>
+                    <td class='date' onclick=change(7) onmouseOver="mouseOver(7)" onmouseOut="mouseOut(7)">11<br></td>
+                    <td class='date' onclick=change(8) onmouseOver="mouseOver(8)" onmouseOut="mouseOut(8)">12<br></td>
+                    <td class='date' onclick=change(9) onmouseOver="mouseOver(9)" onmouseOut="mouseOut(9)">13<br></td>
+                    <td class='date' onclick=change(10) onmouseOver="mouseOver(10)" onmouseOut="mouseOut(10)">14<br></td>
+                    <td class='date' onclick=change(11) onmouseOver="mouseOver(11)" onmouseOut="mouseOut(11)">15<br></td>
+                    <td class='date' onclick=change(12) onmouseOver="mouseOver(12)" onmouseOut="mouseOut(12)">16<br></td>
+                    <td class='date' onclick=change(13) onmouseOver="mouseOver(13)" onmouseOut="mouseOut(13)">17<br></td>
+                </tr>
+                <tr class="Cal-content-row">
+                    <td class='date' onclick=change(14) onmouseOver="mouseOver(14)" onmouseOut="mouseOut(14)">18<br></td>
+                    <td class='date' onclick=change(15) onmouseOver="mouseOver(15)" onmouseOut="mouseOut(15)">19<br></td>
+                    <td class='date' onclick=change(16) onmouseOver="mouseOver(16)" onmouseOut="mouseOut(16)">20<br></td>
+                    <td class='date' onclick=change(17) onmouseOver="mouseOver(17)" onmouseOut="mouseOut(17)">21<br></td>
+                    <td class='date' onclick=change(18) onmouseOver="mouseOver(18)" onmouseOut="mouseOut(18)">22<br></td>
+                    <td class='date' onclick=change(19) onmouseOver="mouseOver(19)" onmouseOut="mouseOut(19)">23<br></td>
+                    <td class='date' onclick=change(20) onmouseOver="mouseOver(20)" onmouseOut="mouseOut(20)">24<br></td>
+                </tr>
+                <tr class="Cal-content-row">
+                    <td class='date' onclick=change(21) onmouseOver="mouseOver(21)" onmouseOut="mouseOut(21)">25<br></td>
+                    <td class='date' onclick=change(22) onmouseOver="mouseOver(22)" onmouseOut="mouseOut(22)">26<br></td>
+                    <td class='date' onclick=change(23) onmouseOver="mouseOver(23)" onmouseOut="mouseOut(23)">27<br></td>
+                    <td class='date' onclick=change(24) onmouseOver="mouseOver(24)" onmouseOut="mouseOut(24)">28<br></td>
+                    <td class='date' onclick=change(25) onmouseOver="mouseOver(25)" onmouseOut="mouseOut(25)">29<br></td>
+                    <td class='date' onclick=change(26) onmouseOver="mouseOver(26)" onmouseOut="mouseOut(26)">30<br></td>
+                    <td class='date' onclick=change(27) onmouseOver="mouseOver(27)" onmouseOut="mouseOut(27)">31<br></td>
                 </tr>
               </table>
         </div>

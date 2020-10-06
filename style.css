@@ -42,6 +42,7 @@ body > h1{
 }
 #cal-button:hover{
     background: var(--hover);
+
 }
 #Cal-main {
     position: relative;
@@ -60,12 +61,20 @@ body > h1{
     height: 15vh;
     padding: 2vh;
 } 
-
 .date{
     text-align: top;
     vertical-align: top;
+    margin: 1px;
+    padding: 1px;
+    background:#fff;
+    color: #000000;
+    word-wrap:break-word;
+    word-break:break-all;
+    overflow: hidden;
 }
-
+/* .date:hover{
+    background: gray;
+} */
 /*****************Themes*****************/
 .Theme-black {
     --main: black;
